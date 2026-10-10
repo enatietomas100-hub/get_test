@@ -1,0 +1,29 @@
+body{padding: 20px;
+background-color: #2f2650;
+text-align: center;
+
+}
+button:hover {
+    background-color: #0e0f0e;
+    border: 10px solid #0e0f0e;
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: 10px solid #4CAF50;
+    border-radius: 20rem;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px #999;
+
+}p{
+    color: white;
+    font-size: 18px;
+}h1{
+    color: rgb(163, 202, 20);
+    font-size: 36px;
+}h2{
+    color: rgb(197, 202, 180);
+    font-size: 24px;
+}
