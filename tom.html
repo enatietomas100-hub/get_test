@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport"content="width=device-width,intial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>my game</title>
+<script src="script.js"></script>
+<body>
+<h1>Welcome to my game</h1>
+<img src="https://media.giphy.com/media/3o7TKPj1r5V0g6k8pC/giphy.gif" alt="game gif">
+<h2>Click the button to start playing rock paper scissors game!!!!!!!!!!!</h2>
+<div>
+    <button class="move" onclick="playGame('Rock')">Rock</button>
+    <button class="move" onclick="playGame('Paper')">Paper</button>
+    <button class="move" onclick="playGame('Scissors')">Scissors</button>
+</div>
+<div id="score">
+    <p>Player Score: <span id="playerScore">0</span></p>
+    <p>Computer Score: <span id="computerScore">0</span></p>
+</div>
+<div>
+    <p id="result">result will be displayed here</p>
+    <div id="reset">
+        <button onclick="resetGame()">Reset Game</button>
+    </div>
+</div>
+</body>
+</html>
